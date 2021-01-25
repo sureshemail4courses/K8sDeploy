@@ -1,6 +1,6 @@
 pipeline {
 
-  agent { label 'deploy' }
+  agent any
   stages {
 
     stage('Checkout Source') {
