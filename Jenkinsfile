@@ -5,7 +5,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/sureshemail4courses/K8sDeploy.git', branch:'master'
+        git url:'https://github.com/sureshemail4courses/K8sDeploy.git', branch:'main'
       }
     }
 
