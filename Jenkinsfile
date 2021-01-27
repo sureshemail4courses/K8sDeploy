@@ -12,7 +12,7 @@ pipeline {
     stage('Deploy App') {
       steps {
         script {
-          sh 'sudo kubectl apply -f nginx.yml'
+          sh 'sudo /usr/local/bin/kubectl apply -f nginx.yml'
         }
       }
     }
