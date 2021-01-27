@@ -30,10 +30,10 @@ metadata:
   namespace: jenkins
 spec:
   ports:
-  - nodePort: 32345
+  - nodePort: 32350
     port: 80
     protocol: TCP
     targetPort: 80
   selector:
     app: web
-  type: NodePort
+  type: LoadBalancer
